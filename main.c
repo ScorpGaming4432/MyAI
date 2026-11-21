@@ -64,7 +64,7 @@ void gradient(const float data[][row_length],
         grad[j] = 0.0f;
     *bias_grad = 0.0f;
 
-    // delta = (f(x+e) - f(x))/e
+    // derivative = (f(x+e) - f(x))/e
     for (size_t i = 0; i < array_length; ++i)
     {
         float prediction = predict(data[i], weights, bias);
