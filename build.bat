@@ -1,0 +1,1 @@
+clang -Wall -Wextra -pedantic main.c -o olsza.exe && .\olsza.exe
